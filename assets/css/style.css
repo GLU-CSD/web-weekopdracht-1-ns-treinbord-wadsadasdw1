@@ -13,6 +13,21 @@
     border: 2px solid #000;
 }
 
+#clock {
+width: 148px;
+height: 148px;
+background-color: white;
+border: 2px solid black;
+border-radius: 50%;
+position: relative;
+top: 20px;
+left: 45px;
+}
+
+#clock img {
+    width: 100%;
+    
+}
 #middle {
     width: 568px;
     height: 339px;
@@ -27,4 +42,128 @@
     height: 335px;
     background-color: rgb(0, 0, 106);
     border: 2px solid #000;
+}
+
+#travelInfo{
+    width: 480px;
+    height: 240px;
+    background-color: white;
+    
+}
+
+#arrivalTime{
+    color: rgb(0, 0, 106);
+    font-weight: 800;
+    font-size: large;
+    position: relative;
+    left: 10px;
+}
+
+#trainType{
+    color: rgb(0, 0, 106);
+    font-weight: 1000;
+    font-size: 25px;
+    position: relative;
+    left: 250px;
+    bottom: 25px;
+}
+
+#trainType img {
+    width: 100px;
+    position: relative;
+    
+}
+
+#trainDestination{
+    color: rgb(0, 0, 106);
+    font-weight: 800;
+    font-size: 30px;
+    position: relative;
+    bottom: 40px;
+    left: 5px;
+}
+
+#trainPath{
+    /*De steden slaan niet goed over naar de volgende regel*/
+    color: rgb(0, 0, 106);
+    font-weight: 800;
+    font-size: 20px;
+    position: relative;
+    left: 5px;
+    bottom: 30px
+}
+
+#blueBox{
+    background-color: darkblue;
+    position: relative;
+    top: 80px;
+}
+
+#nextTrain{
+    color: white;
+    font-weight: 550;
+    position: relative;
+    left: 5px;
+}
+
+#trainIcon{
+    color: rgb(0, 0, 106);
+    font-weight: 800;
+    font-size: 20px;
+    position: relative;
+    left: 170px;
+    top: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#railWrapper{
+    width: 96px;
+    height: 96px;
+    background-color: white;
+    margin-left: 10px;
+    margin-top:  20px;
+}
+
+#blueCube{
+    background-color: rgb(0, 0, 106);
+    width: 20px;
+    height: 20px;
+}
+
+#railNumber{
+    color:rgb(0, 0, 106);
+    font-size: 48px;
+    margin-left: 15px;
+    font-weight: 700;
+}
+
+#railClass{
+    color:rgb(0, 0, 106);
+    font-size: 24px;
+    position: absolute;
+    top: 60px;
+    left: 1355px;
+    font-weight: 700;
+}
+
+#railThing{
+    color:rgb(0, 0, 106); 
+    position: absolute;
+    top: 35px;
+    left: 1310px;
+    font-weight: 300;
 }
